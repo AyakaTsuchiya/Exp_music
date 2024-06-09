@@ -13,7 +13,7 @@
       );
       function random_jump() {
         var i = Math.floor(Math.random() * mylink.length);
-        location.href = mylink[i];
+        window.open(mylink[i], '_blank');
       }
     // -->
 
@@ -59,7 +59,7 @@
 <h1>Wichtige technische Voraussetzungen Ihres Computers</h1>
 <p>Chrome und Firefox sind für dieses Experiment kompatibel. Bitte lege Ihrer <b>Kopfhörer</b> bereit.</p>
 
-<h2 class="btn-square"><a href="javascript:random_jump();" target="_blank">Zum ersten Experiment</a></h2>
+<h2 class="btn-square"><a href="javascript:random_jump();">Zum ersten Experiment</a></h2>
 
 <h2 class="btn-square"><a href="https://www.psytoolkit.org/c/3.4.6/survey?s=OdW5d" target="_blank" rel="noopener noreferrer">Zum zweiten Experiment</a></h2>
 
