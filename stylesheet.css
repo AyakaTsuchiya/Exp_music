@@ -11,7 +11,7 @@ font-family: 'Arial';
 }
 
 .resizeimage {
-   max-width: 700px; 
+   max-width: 500px; 
    min-width: 300px; 
    text-align: center;
 }
