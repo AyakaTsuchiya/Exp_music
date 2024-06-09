@@ -10,6 +10,14 @@ p {
 font-family: 'Arial';
 }
 
+ul {
+font-family: 'Arial';
+}
+
+ol {
+font-family: 'Arial';
+}
+
 .resizeimage {
    max-width: 500px; 
    min-width: 300px; 
